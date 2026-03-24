@@ -101,13 +101,13 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 
 ---
 
-## 📄 Publications (Preprints)
+## 📄 Publications
 
 | Title | Venue | Status |
 |---|---|---|
 | Word–Color Association from Large-Scale Online Data | PLoS ONE | Under Review |
-| The Fracture and Leap Cycle: Quantifying Narrative Surprise in Flash Fiction | Nature HSSC | Under Review |
-| From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry | Scientific Reports | Under Review |
+| The Fracture and Leap Cycle: Quantifying Narrative Surprise in Flash Fiction | Nature HSSC | Preprint |
+| From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry | Scientific Reports | Preprint |
 
 ---
 
