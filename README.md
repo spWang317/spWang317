@@ -1,7 +1,7 @@
 # Hi, I'm Sungpil Wang (왕성필) 👋
 
 **Ph.D. Candidate @ KAIST Graduate School of Culture Technology**  
-Computational Humanist → ML Engineer in progress  
+Computational Humanist 
 Building pipelines that turn unstructured text into measurable structure.
 
 ---
