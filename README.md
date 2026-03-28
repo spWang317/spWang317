@@ -1,7 +1,7 @@
 # Hi, I'm Sungpil Wang (왕성필) 👋
 
 **Ph.D. Candidate @ KAIST Graduate School of Culture Technology**  
-Computational Humanist
+Computational Humanist.
 
 Building pipelines that turn unstructured text into measurable structure.
 
@@ -40,6 +40,30 @@ My research sits at the intersection of **Natural Language Processing** and **Co
 
 ## 📁 Projects
 
+### 🧠 [AI Agent for Korean Flash Fiction Generation](https://github.com/spWang317/AI_Agent_For_Generation-Korean_Flash_Fiction-)
+
+End-to-end generative AI agent pipeline that trains and steers a Korean LLM to produce flash fiction aligned with human narrative archetypes.
+- Extracted **8D Narrative DNA** per story: 3 temporal signal trajectories (Surprisal, Coherence, Semantic Shift) resampled to **57-bin corridors** + 5D geometric scalars (Δ, σ, Γ, κ, Ω)
+- Clustered 2,542 stories into **9 narrative archetypes** via Bayesian GMM on 176D feature vectors (171-bin trajectories + 5D scalars)
+- Fine-tuned **Solar-10.7B** with LoRA SFT conditioned on archetype ID and 8D metrics, then optimized with **PPO** using a dual reward: `exp(−0.5·dM) × exp(−3.0·corridor_penalty)`
+- Built a **LangGraph-based NarrativeGraph agent** (diagnose → plan → revise → sanitize → verify) that iteratively realigns generated stories to the target archetype's DNA corridor via CoT reasoning
+
+`Solar-10.7B` `LoRA` `PPO` `LangGraph` `Ko-SRoBERTa` `Bayesian GMM` `bitsandbytes` `trl`
+
+---
+
+### ⚡ [Korean Flash Fiction RAG Pipeline](https://github.com/spWang317/Korean_Flash_Fiction_RAG)
+
+Chunk-based RAG system for 2,900+ Korean flash fiction texts using FAISS vector search + Solar-10.7B generation.
+- Implemented **chunk-level FAISS indexing** with safe KSS sentence splitting and tail-merging for context preservation
+- Built **best-sentence selector**: re-ranks sentences within retrieved chunks by query similarity before injection
+- Deduplication logic ensures diverse retrieval across documents
+- Designed for low-hallucination generation via explicit `[근거문장]` prompt format
+
+`FAISS` `Solar-10.7B` `Ko-SRoBERTa` `KSS` `MeCab` `RAG`
+
+---
+
 ### 📖 [Korean Flash Fiction Analysis](https://github.com/spWang317/Korean_Flash_Fiction_Analysis)
 > *Submitted to **Nature Humanities & Social Sciences***
 
@@ -52,6 +76,7 @@ Computational analysis of narrative structure in 2,636 Korean flash fiction stor
 `Solar-10.7B` `Ko-SRoBERTa` `k-means` `KDE` `Kruskal-Wallis` `bitsandbytes`
 
 ---
+
 ### 📐 [Prose Poetry vs. Flash Fiction: 5D Semantic Dynamics](https://github.com/spWang317/ProsePoetry_against_FlashFiction)
 > *Submitted to **Scientific Reports***
 
@@ -64,17 +89,7 @@ Geometric differentiation of two visually indistinguishable short-form prose gen
 `Ko-SRoBERTa` `PERMANOVA` `OLS regression` `Random Forest` `SHAP-style ablation`
 
 ---
-### ⚡ [Korean Flash Fiction RAG Pipeline](https://github.com/spWang317/Korean_Flash_Fiction_RAG)
 
-Chunk-based RAG system for 2,900+ Korean flash fiction texts using FAISS vector search + Solar-10.7B generation.
-- Implemented **chunk-level FAISS indexing** with safe KSS sentence splitting and tail-merging for context preservation
-- Built **best-sentence selector**: re-ranks sentences within retrieved chunks by query similarity before injection
-- Deduplication logic ensures diverse retrieval across documents
-- Designed for low-hallucination generation via explicit `[근거문장]` prompt format
-
-`FAISS` `Solar-10.7B` `Ko-SRoBERTa` `KSS` `MeCab` `RAG`
-
----
 ### 🎨 [Word–Color Association Framework](https://github.com/spWang317/Word_Color_Association)
 > *Submitted to **PLoS ONE***
 
@@ -86,6 +101,7 @@ Large-scale word–color association via automated web image retrieval and CIELc
 `Python` `Selenium` `scikit-image` `Bootstrap resampling` `CIELch`
 
 ---
+
 ### 🎙 [Audio Separate & Transcribe](https://github.com/spWang317/Audio_Separate_and_Transcribe)
 > *Part of KOCCA-funded broadcasting monitoring R&D (2023–2025)*
 
@@ -105,6 +121,7 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 | The Fracture and Leap Cycle: Quantifying Narrative Surprise in Flash Fiction | Nature HSSC | Preprint (Research Square) |
 | From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry | Scientific Reports | Preprint (Research Square) |
 | Word–Color Association from Large-Scale Online Data | PLoS ONE | Under Review |
+
 ---
 
 ## 🎓 Education
