@@ -40,7 +40,7 @@ My research sits at the intersection of **Natural Language Processing** and **Co
 
 ## 📁 Projects
 
-### 🧠 [AI Agent for Korean Flash Fiction Generation](https://github.com/spWang317/AI_Agent_For_Generation-Korean_Flash_Fiction-)
+### 🧠 [AI Agent for Korean Flash Fiction Generation](https://github.com/spWang317/AI_Agent_For_Generation-Korean_Flash_Fiction-) [Being modified]
 
 End-to-end generative AI agent pipeline that trains and steers a Korean LLM to produce flash fiction aligned with human narrative archetypes.
 - Extracted **8D Narrative DNA** per story: 3 temporal signal trajectories (Surprisal, Coherence, Semantic Shift) resampled to **57-bin corridors** + 5D geometric scalars (Δ, σ, Γ, κ, Ω)
@@ -90,7 +90,7 @@ Geometric differentiation of two visually indistinguishable short-form prose gen
 
 ---
 
-### 🎨 [Word–Color Association Framework](https://github.com/spWang317/Word_Color_Association)
+### 🎨 [Word–Color Association Framework](https://github.com/spWang317/Word_Color_Association) [Being modified]
 > *Submitted to **PLoS ONE***
 
 Large-scale word–color association via automated web image retrieval and CIELch color space analysis.
