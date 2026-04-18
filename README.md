@@ -65,7 +65,7 @@ Chunk-based RAG system for 2,900+ Korean flash fiction texts using FAISS vector 
 ---
 
 ### 📖 [Korean Flash Fiction Analysis](https://github.com/spWang317/Korean_Flash_Fiction_Analysis)
-> *Submitted to **Nature Humanities & Social Sciences***
+> *Submitted to **EPJ Data Science***
 
 Computational analysis of narrative structure in 2,636 Korean flash fiction stories using sentence-level signal trajectories.
 - Ran **Solar-10.7B** (4-bit NF4 quantized) on GPU server for sentence-level surprisal estimation across full corpus
