@@ -118,7 +118,7 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 
 | Title | Venue | Status |
 |---|---|---|
-| The Fracture and Leap Cycle: Quantifying Narrative Surprise in Flash Fiction | Nature HSSC | Preprint (Research Square) |
+| The Fracture and Leap Cycle: Quantifying Narrative Surprise in Flash Fiction | Scientific Reports | Preprint (Research Square) |
 | From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry | Scientific Reports | Preprint (Research Square) |
 | Word–Color Association from Large-Scale Online Data | PLoS ONE | Under Review |
 
