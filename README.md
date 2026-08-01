@@ -40,7 +40,7 @@ My research sits at the intersection of **Natural Language Processing** and **Co
 
 ## 📁 Projects
 
-### 🧠 [AI Agent for Korean Flash Fiction Generation](https://github.com/spWang317/AI_Agent_For_Generation-Korean_Flash_Fiction-) [Being modified]
+### 🧠 AI Agent for Korean Flash Fiction Generation *(private repo)*
 
 End-to-end generative AI agent pipeline that trains and steers a Korean LLM to produce flash fiction aligned with human narrative archetypes.
 - Extracted **8D Narrative DNA** per story: 3 temporal signal trajectories (Surprisal, Coherence, Semantic Shift) resampled to **57-bin corridors** + 5D geometric scalars (Δ, σ, Γ, κ, Ω)
@@ -64,8 +64,7 @@ Chunk-based RAG system for 2,900+ Korean flash fiction texts using FAISS vector 
 
 ---
 
-### 📖 [Korean Flash Fiction Analysis](https://github.com/spWang317/Korean_Flash_Fiction_Analysis)
-> *Submitted to **EPJ Data Science***
+### 📖 [Korean Flash Fiction Analysis](https://github.com/spWang317/Flash_Fiction_Analysis)
 
 Computational analysis of narrative structure in 2,636 Korean flash fiction stories using sentence-level signal trajectories.
 - Ran **Solar-10.7B** (4-bit NF4 quantized) on GPU server for sentence-level surprisal estimation across full corpus
@@ -78,7 +77,6 @@ Computational analysis of narrative structure in 2,636 Korean flash fiction stor
 ---
 
 ### 📐 [Prose Poetry vs. Flash Fiction: 5D Semantic Dynamics](https://github.com/spWang317/ProsePoetry_against_FlashFiction)
-> *Submitted to **Scientific Reports***
 
 Geometric differentiation of two visually indistinguishable short-form prose genres via semantic trajectory analysis.
 - Constructed a **5D coordinate system** (Displacement, Surprisal Volatility, Global Resonance, Curvature, Spectral Centroid) from sentence embeddings
@@ -90,8 +88,7 @@ Geometric differentiation of two visually indistinguishable short-form prose gen
 
 ---
 
-### 🎨 [Word–Color Association Framework](https://github.com/spWang317/Word_Color_Association) [Being modified]
-> *Submitted to **PLoS ONE***
+### 🎨 [Word–Color Association Framework](https://github.com/spWang317/Word_Color_Association)
 
 Large-scale word–color association via automated web image retrieval and CIELch color space analysis.
 - Built a fully reproducible pipeline: Google Image crawling (Selenium) → pixel-level color extraction → 10-dimensional color vector per word
@@ -102,7 +99,29 @@ Large-scale word–color association via automated web image retrieval and CIELc
 
 ---
 
-### 🎙 [Audio Separate & Transcribe](https://github.com/spWang317/Audio_Separate_and_Transcribe)
+### 🗺 [Prosepoem Atlas](https://github.com/spWang317/prosepoem-atlas)
+> *Open dataset — [10.5281/zenodo.20149336](https://doi.org/10.5281/zenodo.20149336), CC BY 4.0*
+
+An atlas of 4,642 Korean prose poems without line breaks, drawn from four major publisher series (2000–2024).
+- Redacted public metadata, summary tables, and figures with a full reproduction pipeline under `scripts/`
+- Copyright-safe release design: working full texts stay local, only derived artefacts are published
+
+`BERTopic` `Ko-SRoBERTa` `PMI network` `Zenodo` `Hugging Face`
+
+---
+
+### 🔍 [Korean Prose Poetry Reliability Audit](https://github.com/spWang317/korean-prosepoem-reliability-audit)
+
+Multi-axis reliability analysis identifying which motifs genuinely recur across a prose-poetry corpus.
+- BERTopic topic identification cross-validated across **parameter, sample, seed, and membership** perturbations
+- Six motifs survive all four axes (sea, flora, rain, meta-poetic, music, cat)
+- Full reproducibility deposit from SBERT embeddings onward
+
+`BERTopic` `Ko-SRoBERTa` `NNLS` `reliability analysis`
+
+---
+
+### 🎙 Audio Separate & Transcribe *(private repo)*
 > *Part of KOCCA-funded broadcasting monitoring R&D (2023–2025)*
 
 Robust speech transcription pipeline with vocal separation for noisy/music-heavy audio.
@@ -116,11 +135,21 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 
 ## 📄 Publications
 
+각 논문의 최신 상태는 아래 표가 유일한 기준입니다.
+
+<!-- PUBLICATIONS:START — sync.py 가 생성. 직접 고치지 마세요 -->
+
 | Title | Venue | Status |
 |---|---|---|
-| The Fracture and Leap Cycle: Quantifying Narrative Surprise in Flash Fiction | Scientific Reports | Preprint (Research Square) |
-| From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry | Scientific Reports | Preprint (Research Square) |
-| Word–Color Association from Large-Scale Online Data | PLoS ONE | Under Review |
+| [Word–Color Association from Large-Scale Online Data: Methodology and Applications](https://github.com/spWang317/Word_Color_Association) | PLOS ONE | Revision |
+| [Information dynamics in compressed narratives: five dynamical regimes and a fracture-and-leap cycle](https://github.com/spWang317/Flash_Fiction_Analysis) | Physica A: Statistical Mechanics and its Applications | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8619161/v1) |
+| [From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry against Flash Fiction](https://github.com/spWang317/ProsePoetry_against_FlashFiction) | Scientific Reports | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8722451/v1) |
+| [Stable Motifs in Korean Prose Poetry: A Multi-Axis Reliability Analysis and the Complementary Visibility of Quantitative and Critical Analysis](https://github.com/spWang317/korean-prosepoem-reliability-audit) | Journal of Cultural Analytics | Under review |
+| Does Non-Western Plot Structure Help Narrative Retrieval? Freytag vs Giseungjeongyeol on Korean Flash Fiction | EMNLP 2026 (ARR) | Under review |
+| Helpful as Feedback, Insensitive as Metric: Structural Diagnostics in LLM Narrative Revision | EMNLP 2026 (ARR) | Under review |
+| [Prosepoem Atlas: An Atlas of Korean Prose Poetry without Line Breaks (Four Major Publisher Series, 2000–2024)](https://github.com/spWang317/prosepoem-atlas) | Zenodo | Published · [doi](https://doi.org/10.5281/zenodo.20149336) |
+
+<!-- PUBLICATIONS:END -->
 
 ---
 
@@ -134,4 +163,4 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 
 ## 📬 Contact
 
-📧 wangsp0317@kaist.ac.kr
+📧 wangsp0317@kaist.ac.kr · 🌐 [spwang317.github.io](https://spwang317.github.io/)
