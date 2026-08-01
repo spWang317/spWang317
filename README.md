@@ -102,9 +102,6 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 | [Word–Color Association from Large-Scale Online Data: Methodology and Applications](https://github.com/spWang317/Word_Color_Association) | PLOS ONE | Revision |
 | [Information dynamics in compressed narratives: five dynamical regimes and a fracture-and-leap cycle](https://github.com/spWang317/Flash_Fiction_Analysis) | Physica A: Statistical Mechanics and its Applications | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8619161/v1) |
 | [From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry against Flash Fiction](https://github.com/spWang317/ProsePoetry_against_FlashFiction) | Scientific Reports | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8722451/v1) |
-| *Title withheld — under double-blind review* | *Anonymised venue* | Under review |
-| *Title withheld — under double-blind review* | *Anonymised venue* | Under review |
-| *Title withheld — under double-blind review* | *Anonymised venue* | Under review |
 
 <!-- PUBLICATIONS:END -->
 
