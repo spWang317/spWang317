@@ -144,9 +144,6 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 | [Word–Color Association from Large-Scale Online Data: Methodology and Applications](https://github.com/spWang317/Word_Color_Association) | PLOS ONE | Revision |
 | [Information dynamics in compressed narratives: five dynamical regimes and a fracture-and-leap cycle](https://github.com/spWang317/Flash_Fiction_Analysis) | Physica A: Statistical Mechanics and its Applications | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8619161/v1) |
 | [From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry against Flash Fiction](https://github.com/spWang317/ProsePoetry_against_FlashFiction) | Scientific Reports | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8722451/v1) |
-| [Stable Motifs in Korean Prose Poetry: A Multi-Axis Reliability Analysis and the Complementary Visibility of Quantitative and Critical Analysis](https://github.com/spWang317/korean-prosepoem-reliability-audit) | Journal of Cultural Analytics | Under review |
-| Does Non-Western Plot Structure Help Narrative Retrieval? Freytag vs Giseungjeongyeol on Korean Flash Fiction | EMNLP 2026 (ARR) | Under review |
-| Helpful as Feedback, Insensitive as Metric: Structural Diagnostics in LLM Narrative Revision | EMNLP 2026 (ARR) | Under review |
 | [Prosepoem Atlas: An Atlas of Korean Prose Poetry without Line Breaks (Four Major Publisher Series, 2000–2024)](https://github.com/spWang317/prosepoem-atlas) | Zenodo | Published · [doi](https://doi.org/10.5281/zenodo.20149336) |
 
 <!-- PUBLICATIONS:END -->
@@ -155,7 +152,7 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 
 ## 🎓 Education
 
-- **Ph.D.** Cultural Technology, KAIST (2022–2026 expected)
+- **Ph.D.** Cultural Technology, KAIST (2022–2027 expected)
 - **M.Eng.** Cultural Technology, KAIST (2020–2022)
 - **B.Eng.** Industrial & System Engineering + Culture & Arts Software + Creative Writing, Dongguk Univ. (2015–2020)
 
