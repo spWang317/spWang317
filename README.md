@@ -77,16 +77,6 @@ Large-scale word–color association via automated web image retrieval and CIELc
 
 ---
 
-### 🗺 [Prosepoem Atlas](https://github.com/spWang317/prosepoem-atlas)
-> *Open dataset — [10.5281/zenodo.20149336](https://doi.org/10.5281/zenodo.20149336), CC BY 4.0*
-
-An atlas of 4,642 Korean prose poems without line breaks, drawn from four major publisher series (2000–2024).
-- Redacted public metadata, summary tables, and figures with a full reproduction pipeline under `scripts/`
-- Copyright-safe release design: working full texts stay local, only derived artefacts are published
-
-`BERTopic` `Ko-SRoBERTa` `PMI network` `Zenodo` `Hugging Face`
-
----
 
 
 ### 🎙 Audio Separate & Transcribe *(private repo)*
@@ -112,7 +102,6 @@ Robust speech transcription pipeline with vocal separation for noisy/music-heavy
 | [Word–Color Association from Large-Scale Online Data: Methodology and Applications](https://github.com/spWang317/Word_Color_Association) | PLOS ONE | Revision |
 | [Information dynamics in compressed narratives: five dynamical regimes and a fracture-and-leap cycle](https://github.com/spWang317/Flash_Fiction_Analysis) | Physica A: Statistical Mechanics and its Applications | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8619161/v1) |
 | [From Kinetic to Resonant Regimes: Geometric Differentiation of Prose Poetry against Flash Fiction](https://github.com/spWang317/ProsePoetry_against_FlashFiction) | Scientific Reports | Under review · [preprint](https://doi.org/10.21203/rs.3.rs-8722451/v1) |
-| [Prosepoem Atlas: An Atlas of Korean Prose Poetry without Line Breaks (Four Major Publisher Series, 2000–2024)](https://github.com/spWang317/prosepoem-atlas) | Zenodo | Published · [doi](https://doi.org/10.5281/zenodo.20149336) |
 
 <!-- PUBLICATIONS:END -->
 
