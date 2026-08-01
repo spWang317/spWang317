@@ -40,29 +40,7 @@ My research sits at the intersection of **Natural Language Processing** and **Co
 
 ## 📁 Projects
 
-### 🧠 AI Agent for Korean Flash Fiction Generation *(private repo)*
 
-End-to-end generative AI agent pipeline that trains and steers a Korean LLM to produce flash fiction aligned with human narrative archetypes.
-- Extracted **8D Narrative DNA** per story: 3 temporal signal trajectories (Surprisal, Coherence, Semantic Shift) resampled to **57-bin corridors** + 5D geometric scalars (Δ, σ, Γ, κ, Ω)
-- Clustered 2,542 stories into **9 narrative archetypes** via Bayesian GMM on 176D feature vectors (171-bin trajectories + 5D scalars)
-- Fine-tuned **Solar-10.7B** with LoRA SFT conditioned on archetype ID and 8D metrics, then optimized with **PPO** using a dual reward: `exp(−0.5·dM) × exp(−3.0·corridor_penalty)`
-- Built a **LangGraph-based NarrativeGraph agent** (diagnose → plan → revise → sanitize → verify) that iteratively realigns generated stories to the target archetype's DNA corridor via CoT reasoning
-
-`Solar-10.7B` `LoRA` `PPO` `LangGraph` `Ko-SRoBERTa` `Bayesian GMM` `bitsandbytes` `trl`
-
----
-
-### ⚡ [Korean Flash Fiction RAG Pipeline](https://github.com/spWang317/Korean_Flash_Fiction_RAG)
-
-Chunk-based RAG system for 2,900+ Korean flash fiction texts using FAISS vector search + Solar-10.7B generation.
-- Implemented **chunk-level FAISS indexing** with safe KSS sentence splitting and tail-merging for context preservation
-- Built **best-sentence selector**: re-ranks sentences within retrieved chunks by query similarity before injection
-- Deduplication logic ensures diverse retrieval across documents
-- Designed for low-hallucination generation via explicit `[근거문장]` prompt format
-
-`FAISS` `Solar-10.7B` `Ko-SRoBERTa` `KSS` `MeCab` `RAG`
-
----
 
 ### 📖 [Korean Flash Fiction Analysis](https://github.com/spWang317/Flash_Fiction_Analysis)
 
@@ -110,16 +88,6 @@ An atlas of 4,642 Korean prose poems without line breaks, drawn from four major 
 
 ---
 
-### 🔍 [Korean Prose Poetry Reliability Audit](https://github.com/spWang317/korean-prosepoem-reliability-audit)
-
-Multi-axis reliability analysis identifying which motifs genuinely recur across a prose-poetry corpus.
-- BERTopic topic identification cross-validated across **parameter, sample, seed, and membership** perturbations
-- Six motifs survive all four axes (sea, flora, rain, meta-poetic, music, cat)
-- Full reproducibility deposit from SBERT embeddings onward
-
-`BERTopic` `Ko-SRoBERTa` `NNLS` `reliability analysis`
-
----
 
 ### 🎙 Audio Separate & Transcribe *(private repo)*
 > *Part of KOCCA-funded broadcasting monitoring R&D (2023–2025)*
